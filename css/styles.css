@@ -1,0 +1,43 @@
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  #sidebar a {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#sidebar a:hover {
+    color: lightblue;
+}
+
+/* Adjust content to leave space for sidebar */
+#content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+#title {
+    color: lightblue;
+    text-align: center;
+}
+
+#marg {
+    margin-right: 150px;
+}
+</style>

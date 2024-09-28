@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #cccccc;
+}
+
+/* General page styles */
+/* Selectors to be matched up with rulesets */
+
+.card article img,
+.card footer,
+.card header,
+.card {}
+
+/* Rulesets to be matched up with selectors */
+
+.card {
+  width: 35em;
+  height: 18em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card header {
+  font: hele;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  border-radius: 1.5em 1.5em 0 0;
+  height: 3.125em;
+  padding: 0.625em; 
+  box-sizing: border-box;
+}
+
+.card footer {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  height: 3.125em;
+  padding: 0.625em;
+  box-sizing: border-box;
+}
+
+.card article img {
+  max-height: 100%;
+  float: right;
+}
+
+.card article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p { 
+  font-size: 1.25em; 
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.25em; 
+  line-height: 1.875em; 
+  margin: 0;
+}
+
+footer {
+  font-size: 0.9375em; 
+  line-height: 1.875em; 
+}
+
+article {
+  padding-left: 1.25em;
+  color: #f0f0f0; 
+  margin: 0; 
+}
+
+.yt {
+  width: 35em;
+  height: 18em;
+  margin: 5em auto;
+  background-color: rgb(33, 191, 56);
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.yt header {
+  font: 'Helvetica-neue';
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  border-radius: 1.5em 1.5em 0 0;
+  height: 3.125em;
+  padding: 0.625em; 
+  box-sizing: border-box;
+}
+
+.yt footer {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  border-radius: 0 0 1.5em 1.5em;
+  height: 3.125em;
+  padding: 0.625em;
+  box-sizing: border-box;
+}
+
+.yt article img {
+  max-height: 100%;
+  float: right;
+}
+
+.yt article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+}

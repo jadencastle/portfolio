@@ -27,7 +27,7 @@ for (let i = 0; i < imageFilenames.length; i++) {
 
     
     newImage.addEventListener('click', () => {
-        currentImageIndex = i; // Update the current image index based on the clicked thumbnail
+        currentImageIndex = i; 
         displayedImg.setAttribute('src', imagePath);
         displayedImg.setAttribute('alt', `Image ${i + 1}`);
         console.log(`Displayed image changed to: ${imagePath}`);
@@ -36,7 +36,7 @@ for (let i = 0; i < imageFilenames.length; i++) {
 
 
 displayedImg.addEventListener('click', () => {
-    currentImageIndex = (currentImageIndex + 1) % imageFilenames.length; // Cycle through images
+    currentImageIndex = (currentImageIndex + 1) % imageFilenames.length;
     displayedImg.setAttribute('src', imageFilenames[currentImageIndex]);
     displayedImg.setAttribute('alt', `Image ${currentImageIndex + 1}`);
     console.log(`Displayed image cycled to: ${imageFilenames[currentImageIndex]}`);

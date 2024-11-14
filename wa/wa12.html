@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WA12</title>
+    <style>
+        .comicContainer {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- <h1>XKCD Comic Viewer</h1> -->
     <button id="fetchButton">Generate Comic</button>
-    <div id="comicContainer">
+    <div class="comicContainer">
         <h2 id="comicTitle"></h2>
         <img id="comicImage" src="" alt="Comic">
         <p id="comicAlt"></p>

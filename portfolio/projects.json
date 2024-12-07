@@ -1,32 +1,28 @@
 {
 	"projects": [{
-			"name": "Together Apart",
-			"subdomain": "together_apart",
-			"category": ["tangible", "networked", "participatory", "publication", "lead", "methods"],
-			"subtitle": "Co-Designing A Robot Interface for Remote Co-Design",
-			"collaborators": ["Kaiwen Sun", "Zahra Dhuliawala", "Fumi Tsukiyama", "Iva Matkovic", "Anastasia Wolf", "Zihao (Leo) Zhang", "Priyanka Balasubramaniyam", "Zach Schwemler", "Allison Druin", "Jason Yip", "Amanda Huynh", "Daniel Leithinger"],
-			"abstract": "A long term participatory design project with KidsTeam UW to create a remote and hybrid tangible co-design tool. We utilize Sony toio robots to build a networked robot platform that child designers can use to collaborate in real time.",
-			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
+			"name": "Fashion App",
+			"subdomain": "community_fashion",
+			"category": ["UX design", "networked", "participatory", "mobile", "lead", "methods"],
+			"subtitle": "Designing a Community-Centered Fashion Discovery Platform",
+			"collaborators": ["Jaden Castle", "Jessica Vo"],
+			"abstract": "A participatory design project focused on creating a mobile app for showcasing outfits, tagging items with prices, and fostering community engagement through interactive features. The app combines intuitive discovery tools with customizable user profiles to balance self-expression and inspiration.",
+			"description": ["This project aimed to address the need for a community-focused fashion platform by implementing a blend of discovery and self-expression features. Research methods like surveys, user personas, and competitor analysis guided the design process, ensuring the app met user needs and filled market gaps."],
 			"mainimg": "tapart.jpg",
 			"video": ["False"],
-			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"],
-			"published": ["True","1"],
-			"citations": [["Casey Lee Hunt, Kaiwen Sun, Zahra Dhuliawala, Fumi Tsukiyama, Iva Matkovic, Zachary Schwemler, Anastasia Wolf, Zihao Zhang, Allison Druin, Amanda Huynh, Daniel Leithinger, and Jason Yip. 2023. <span>Designing Together, Miles Apart: A Longitudinal Tabletop Telepresence Adventure in Online Co-Design with Children</span>. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference (IDC '23). Association for Computing Machinery, New York, NY, USA, 52–67.", "https://caseyhunt.github.io/assets/idc23-8_3.pdf", "View on ACM", "https://dl-acm-org.colorado.idm.oclc.org/doi/10.1145/3585088.3589359"]]
+			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
 			
-	},{"name": "TactorBots",
-			"subdomain": "tactorbots",
-			"category": ["tangible", "networked", "participatory", "toolkit", "shape_change", "publication", "award", "support"],
-			"subtitle": "A Haptic Design Toolkit for Out-of-lab Exploration of Emotional Robotic Touch",
-			"collaborators": ["Ran Zhou (Lead)", "Zachary Schwemler","Aksha Baweja", "Harpreet Sareen", "Daniel Leithinger"],
-			"abstract": "A toolkit for haptic designers to explore emotional robotic touch through a web GUI and eight plug and play wearable modules. Social touch is psychologically impactful, TactorBots reduces the barrier to entry for the design / creation of these interactions.",
-			"description": ["Psychological research has found that humans convey specific emotions (e.g., anger, fear, happiness) using social touch patterns, like squeezing a friend's arm when we are afraid. Emotional haptics, then, are an opportunity to create more enriching and intimate interactions with technology. However, designing emotional haptics systems requires a relatively high degree of technical skill. To overcome this challenge and make emotional haptics an accessible 'design canvas,' we created TactorBots."
-			, "TactorBots is a haptic toolkit to create emotional robotic touch. It contains eight plug-and-play wearable tactor modules that render a series of social gestures with servo motors. The associated web GUI allows easy control, modification, and storage of tactile patterns to support fast prototyping. As a result, we remove the need for hardware design and programming, enabling designers to try out various tactile sensations, and create at the boundary between touch and emotion."],
-			"mainimg": "tbots_cover.png",
-			"video": ["True","False"],
+	},{"name": "Women in CS First Year Project",
+			"subdomain": "inclusion_in_tech",
+			"category": ["research", "equity", "education", "participatory", "qualitative methods"],
+			"subtitle": "Exploring First-Year Experiences of Women in Computer Science",
+			"collaborators": ["Lecia Barker (Lead)", "Noah Cowit","Jaden Castle", "Mayce Miller"],
+			"abstract": "A study investigating the experiences of first-year women in computer science majors, focusing on inclusionary and exclusionary behaviors, identity formation, and sense of belonging. The research aims to shed light on how classroom, peer, and departmental dynamics affect retention and inclusivity in the CS field.",
+			"description": ["This project addresses the ongoing challenge of fostering inclusivity in computer science education by examining first-year women’s experiences. The study explores factors contributing to retention and attrition, particularly in the absence of faculty, such as in peer interactions and informal group settings.",
+        	"Data collection involves near-peer interviews conducted by undergraduate researchers. These interviews focus on capturing micro-affirmations, micro-aggressions, and other inclusionary or exclusionary experiences encountered in classrooms, labs, and extracurricular environments. To contextualize findings, the research team also considers institutional data, such as enrollment growth, department resources, and teaching approaches."],
+			"mainimg": "/portfolio/imgs/wics.jpeg",
+			"video": ["False"],
 			"images": ["tbots_cover.png"],
-			"video_url": "https://player.vimeo.com/video/798871223?h=dafa20ef89",
-			"published": ["True","1"],
-			"citations": [["Ran Zhou, Zachary Schwemler, Akshay Baweja, Harpreet Sareen, Casey Lee Hunt, and Daniel Leithinger. 2023. <span>TactorBots: A Haptic Design Toolkit for Out-of-lab Exploration of Emotional Robotic Touch.</span> In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 370, 1–19.", "https://caseyhunt.github.io/assets/chi-23.pdf", "View on ACM", "https://dl-acm-org.colorado.idm.oclc.org/doi/abs/10.1145/3544548.3580799"]]
+			"citations": [["National Center for Women & Information Technology (NCWIT). 2024. <span>Retention Strategies for Women in Computing</span>. Internal Research Documentation."]]
 
 	},{
 			"name": "Designing Sensory Extensions for Interactive Simulations",

@@ -2,7 +2,7 @@
 	"projects": [{
 			"name": "Fashion App",
 			"subdomain": "community_fashion",
-			"category": ["UX design", "networked", "participatory", "mobile", "lead", "methods"],
+			"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
 			"subtitle": "Designing a Community-Centered Fashion Discovery Platform",
 			"collaborators": ["Jaden Castle", "Jessica Vo"],
 			"abstract": "A participatory design project focused on creating a mobile app for showcasing outfits, tagging items with prices, and fostering community engagement through interactive features. The app combines intuitive discovery tools with customizable user profiles to balance self-expression and inspiration.",

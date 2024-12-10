@@ -1,7 +1,7 @@
 {
 	"projects": [{
-			"name": "Fashion App",
-			"subdomain": "community_fashion",
+			"name": "Outfiited: A Fashion App",
+			"subdomain": "outfitted",
 			"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
 			"subtitle": "Designing a Community-Centered Fashion Discovery Platform",
 			"collaborators": ["Jaden Castle", "Jessica Vo"],

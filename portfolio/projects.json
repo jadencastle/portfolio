@@ -1,11 +1,11 @@
 {
 	"projects": [{
-			"name": "Outfiited: A Fashion App",
+			"name": "Outfiited: Fashion Playground",
 			"subdomain": "outfitted",
 			"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
-			"subtitle": "Designing a Community-Centered Fashion Discovery Platform",
+			"subtitle": "Empowering Fashion Exploration: A Community-Driven App for Self-Expression and Style Discovery",
 			"collaborators": ["Jaden Castle", "Jessica Vo"],
-			"abstract": "A participatory design project focused on creating a mobile app for showcasing outfits, tagging items with prices, and fostering community engagement through interactive features. The app combines intuitive discovery tools with customizable user profiles to balance self-expression and inspiration.",
+			"abstract": "A fashion app designed for users to showcase their unique styles through outfit photos and tags. By focusing on self-expression and creativity, the app aims to build an engaging community without the pressures of traditional social metrics. The design process involved user research and iterative feedback, resulting in a streamlined interface that encourages discovery and connection among fashion enthusiasts.",
 			"description": ["This project aimed to address the need for a community-focused fashion platform by implementing a blend of discovery and self-expression features. Research methods like surveys, user personas, and competitor analysis guided the design process, ensuring the app met user needs and filled market gaps."],
 			"mainimg": "proj.jpg",
 			"video": ["False"],

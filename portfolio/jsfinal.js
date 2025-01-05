@@ -62,3 +62,28 @@ function sortProjects(button) {
         console.log("error, button value is undefined");
     }
 }
+function openLinkedIn() {
+    window.open('https://www.linkedin.com/in/jadencastle/', '_blank');
+}
+
+function copyEmail() {
+    const email = 'jaden.castle@colorado.edu'; // Replace with your email address
+    navigator.clipboard.writeText(email)
+        .then(() => {
+            const notification = document.getElementById('notification');
+            notification.textContent = 'Email copied to clipboard';
+            notification.style.display = 'block'; // Show notification
+            notification.style.opacity = '1'; // Make it visible
+
+            // Hide notification after 3 seconds
+            setTimeout(() => {
+                notification.style.opacity = '0'; // Fade out
+                setTimeout(() => {
+                    notification.style.display = 'none'; // Hide after fade out
+                }, 500); // Match the transition duration
+            }, 3000); // Show for 3 seconds
+        })
+        .catch(err => {
+            console.error('Could not copy email: ', err);
+        });
+}

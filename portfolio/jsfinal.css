@@ -122,3 +122,34 @@ p {
     line-height: 2.0; 
 }
 
+#socials {
+    display: flex;
+    gap: 10px; 
+}
+
+#socials button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#socials button:hover {
+    background-color: #45a049;
+}
+
+#notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s;
+    opacity: 0; /* Start invisible */
+}

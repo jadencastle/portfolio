@@ -13,7 +13,7 @@
 }
 
 .project:hover {
-    background-color: blanchedalmond;
+    background-color: #b9c8bc;
 }
 
 .project {
@@ -32,7 +32,7 @@
     height: auto;
     margin-right: 20px; /* Add space between the image and the text */
     padding: 10px;
-    border: 1px solid #ddd; 
+    border: 1px hidden #ddd; 
     border-radius: 8px; 
 }
 
@@ -59,7 +59,7 @@
 
 #buttons button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #3A6A59;
     color: white;
     border: none;
     border-radius: 5px;
@@ -67,11 +67,7 @@
 }
 
 #buttons button:hover {
-    background-color: #45a049;
-}
-
-.body {
-    background-color: yellow;
+    background-color: #2A4B40;
 }
 
 #heading-container h3 {
@@ -129,7 +125,7 @@ p {
 
 #socials button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #A7A88A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -137,7 +133,7 @@ p {
 }
 
 #socials button:hover {
-    background-color: #45a049;
+    background-color: #8B8C7A;
 }
 
 #notification {
@@ -153,3 +149,7 @@ p {
     transition: opacity 0.5s;
     opacity: 0; /* Start invisible */
 }
+
+/* body {
+    background-color: #3a6a59;
+} */

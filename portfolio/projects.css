@@ -47,7 +47,7 @@ section {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ ol {
 }
 
 ol strong {
-    color: #8c8d6c;
+    color: #75783b;
 }
 
 /* Footer */
@@ -92,6 +92,37 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+
+/* Photo Gallery Section */
+#gallery {
+    background-color: #f8f9fa; /* Optional: Light background to separate the section visually */
+    padding: 40px 0;
+}
+
+#gallery .content {
+    max-width: 1200px; /* Centered and constrained for larger screens */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between images */
+}
+
+.image-grid img {
+    width: 100%; /* Ensure images fit their containers */
+    border-radius: 10px; /* Smooth corners for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transitions */
+}
+
+.image-grid img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
 
 /* Responsiveness */
 @media (max-width: 768px) {
@@ -106,4 +137,12 @@ footer {
     h2 {
         font-size: 1.5rem;
     }
+    #gallery {
+        padding: 20px 0;
+    }
+
+    .image-grid {
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
 }
+

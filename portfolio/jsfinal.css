@@ -141,7 +141,7 @@ p {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #4CAF50; /* Green background */
+    background-color: #2A4B40; /* Green background */
     color: white; /* White text */
     padding: 10px 20px;
     border-radius: 5px;
@@ -150,6 +150,31 @@ p {
     opacity: 0; /* Start invisible */
 }
 
-/* body {
-    background-color: #3a6a59;
-} */
+.navbar {
+    /* background-color: #3A6A59; */
+    color: white;
+    padding: 15px 20px;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar-brand:hover {
+    color: #3A6A59; /* Change this to the color you want on hover */
+    text-decoration: underline; /* Optional: adds an underline effect */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}

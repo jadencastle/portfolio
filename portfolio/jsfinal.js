@@ -33,7 +33,6 @@ function parseData(data) {
             </a>
         `;
 
-        // Append projectHtml to the "projects" container
         document.getElementById("projects").innerHTML += projectHtml;
     }
 }
@@ -67,7 +66,7 @@ function openLinkedIn() {
 }
 
 function copyEmail() {
-    const email = 'jaden.castle@colorado.edu'; // Replace with your email address
+    const email = 'jaden.castle@colorado.edu';
     navigator.clipboard.writeText(email)
         .then(() => {
             const notification = document.getElementById('notification');

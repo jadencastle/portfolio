@@ -130,6 +130,7 @@ p {
 #socials button {
     padding: 10px 20px;
     background-color: #A7A88A;
+    background-color: red
     color: white;
     border: none;
     border-radius: 5px;

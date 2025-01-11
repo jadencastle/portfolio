@@ -1,37 +1,17 @@
 {
-	"projects": [{
-			"name": "Outfitted: Fashion Playground",
-			"subdomain": "outfitted",
-			"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
-			"subtitle": "Empowering Fashion Exploration: A Community-Driven App for Self-Expression and Style Discovery",
-			"collaborators": ["Jaden Castle", "Jessica Vo"],
-			"abstract": "A fashion app designed for users to showcase their unique styles through outfit photos and tags. By focusing on self-expression and creativity, the app aims to build an engaging community without the pressures of traditional social metrics. The design process involved user research and iterative feedback, resulting in a streamlined interface that encourages discovery and connection among fashion enthusiasts.",
-			"description": ["This project aimed to address the need for a community-focused fashion platform by implementing a blend of discovery and self-expression features. Research methods like surveys, user personas, and competitor analysis guided the design process, ensuring the app met user needs and filled market gaps."],
-			"mainimg": "proj.jpg",
-			"video": ["False"],
-			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
-			
-	},{"name": "Women in CS First Year Project",
-			"subdomain": "womencompsci",
-			"category": ["research", "equity", "education", "participatory", "qualitative methods"],
-			"subtitle": "Exploring First-Year Experiences of Women in Computer Science",
-			"collaborators": ["Lecia Barker (Lead)", "Noah Cowit","Jaden Castle", "Mayce Miller"],
-			"abstract": "A study investigating the experiences of first-year women in computer science majors, focusing on inclusionary and exclusionary behaviors, identity formation, and sense of belonging. The research aims to shed light on how classroom, peer, and departmental dynamics affect retention and inclusivity in the CS field.",
-			"description": ["This project addresses the ongoing challenge of fostering inclusivity in computer science education by examining first-year women’s experiences. The study explores factors contributing to retention and attrition, particularly in the absence of faculty, such as in peer interactions and informal group settings.",
-        	"Data collection involves near-peer interviews conducted by undergraduate researchers. These interviews focus on capturing micro-affirmations, micro-aggressions, and other inclusionary or exclusionary experiences encountered in classrooms, labs, and extracurricular environments. To contextualize findings, the research team also considers institutional data, such as enrollment growth, department resources, and teaching approaches."],
-			"mainimg": "proj (2).jpg",
-			"video": ["False"],
-			"citations": [["National Center for Women & Information Technology (NCWIT). 2024. <span>Retention Strategies for Women in Computing</span>. Internal Research Documentation."]]
-
-	},{
-			"name": "The Ethics of Public Filming",
-			"subdomain": "publicfilming",
-			"category": ["equity", "policy", "research", "digital media", "paper", "methods"],
-			"subtitle": "Building Ethical Frameworks for Digital Platforms",
-			"collaborators": ["Jaden Castle", "Joshua Rosen", "Jason Pabelico"],
-			"abstract": "A forward-thinking policy and design project aimed at addressing ethical challenges posed by digital platforms. The project focuses on creating guidelines and educational resources for platform designers, policymakers, and creators to ensure equity, respect for consent, and the protection of vulnerable groups. Key outputs include an open-access ethical toolkit and a pilot certification program for ethical digital storytelling.",
-			"description": ["This project tackles ethical dilemmas in digital media by integrating research, policy-making, and participatory design practices."],
-			"mainimg": "proj (3).jpg"
-		}
+	"projects": [
+	  {
+		"name": "Outfitted: Fashion Playground",
+		"subdomain": "outfitted",
+		"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
+		"subtitle": "Empowering Fashion Exploration: A Community-Driven App for Self-Expression and Style Discovery",
+		"collaborators": ["Jad", "Jessica Vo"],
+		"abstract": "A fashion app designed for users to showcase their unique styles through outfit photos and tags. By focusing on self-expression and creativity, the app aims to build an engaging community without the pressures of traditional social metrics. The design process involved user research and iterative feedback, resulting in a streamlined interface that encourages discovery and connection among fashion enthusiasts.",
+		"description": ["This project aimed to address the need for a community-focused fashion platform by implementing a blend of discovery and self-expression features. Research methods like surveys, user personas, and competitor analysis guided the design process, ensuring the app met user needs and filled market gaps."],
+		"mainimg": "proj.jpg",
+		"video": ["False"],
+		"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
+	  }
 	]
-}
+  }
+  

@@ -122,12 +122,12 @@ p {
     line-height: 2.0; 
 }
 
-#socials {
+#contacts {
     display: flex;
     gap: 10px; 
 }
 
-#socials button {
+#contacts button {
     padding: 10px 20px;
     background-color: #A7A88A;
     color: white;
@@ -136,7 +136,7 @@ p {
     cursor: pointer;
 }
 
-#socials button:hover {
+#contacts button:hover {
     background-color: #8B8C7A;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */

@@ -181,6 +181,86 @@ p {
 
 .navbar-brand:hover {
     color: #3A6A59; /* Change this to the color you want on hover */
-    text-decoration: underline; /* Optional: adds an underline effect */
+    text-decoration: underline; /* adds an underline effect */
     transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #gallery {
+        padding: 20px 0;
+    }
+
+    .image-grid {
+        gap: 10px; 
+    }
+
+    #projects {
+        margin: 5vh 10vw;
+    }
+
+    .project {
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    .project img {
+        width: 80%; 
+        margin-bottom: 10px; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    #heading-container {
+        flex-direction: column; 
+        margin: 5vh 10vw; 
+    }
+
+    #buttons {
+        justify-content: center; 
+        gap: 5px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .image img {
+        width: 100%; 
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    #name {
+        text-align: center; 
+    }
+
+    .navbar .container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #contacts {
+        align-items: center;
+        justify-content: center; 
+        gap: 5px; 
+    }
+
 }

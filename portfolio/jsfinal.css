@@ -86,7 +86,9 @@
     align-items: center;   
     height: auto;         
     text-align: center;      
-    margin-top: 20px;        
+    margin-top: 20px;
+    border: 1px solid red;
+    min-height: 100px;       
 }
 
 /* Container to hold both the image and the text side by side */
@@ -107,7 +109,8 @@
 /* Styling for the name and description */
 #name {
     max-width: 500px; 
-    text-align: left    ; 
+    text-align: left;
+    border: 1px solid blue 
 }
 
 h1 {
@@ -123,8 +126,9 @@ p {
 }
 
 #socials {
-    display: flex;
+    display: flex; /* Ensure flex container is active */
     gap: 10px;
+    background-color: yellow; /* Debug background */
 }
 
 #socials button {
@@ -134,6 +138,7 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
 }
 
 #socials button:hover {

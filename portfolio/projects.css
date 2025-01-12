@@ -122,6 +122,15 @@ footer {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
+.about-container {
+    border: 1px solid red; /* Debugging border */
+    min-height: 100px; /* Ensure height isn't collapsing */
+}
+
+#name {
+    border: 1px solid blue; /* Debugging border */
+}
+
 
 /* Responsiveness */
 @media (max-width: 768px) {

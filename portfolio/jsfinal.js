@@ -12,30 +12,34 @@ fetch('/portfolio/projects.json')
         console.log(`error ${err}`);
     });
 
-function parseData(data) {
-    for (let i = 0; i < data.projects.length; i++) {
-        const project = data.projects[i];
-        const mainImage = project.mainimg; // Get the main image for each project
-        
-        let projectHtml = `
-            <a href="/portfolio/${project.subdomain}.html">
-                <div class="row project" id="${project.subdomain}">
-                    <div class="projimg">
-                        <!-- Use dynamic main image from data -->
-                        <img src="/portfolio/imgs/${mainImage}" alt="${project.name} main image">
+    function parseData(data) {
+        for (let i = 0; i < data.projects.length; i++) {
+            const project = data.projects[i];
+            const mainImage = project.mainimg; // Get the main image for each project
+            
+            // Log the image paths to check for issues
+            console.log(`Image path: /portfolio/imgs/${mainImage}`);
+            
+            let projectHtml = `
+                <a href="/portfolio/${project.subdomain}.html">
+                    <div class="row project" id="${project.subdomain}">
+                        <div class="projimg">
+                            <!-- Use dynamic main image from data -->
+                            <img src="/portfolio/imgs/${mainImage}" alt="${project.name} main image">
+                        </div>
+                        <div class="description">
+                            <h2>${project.name}</h2>
+                            <p class="subtitle">${project.subtitle}</p>
+                            <p>${project.abstract}</p>
+                        </div>
                     </div>
-                    <div class="description">
-                        <h2>${project.name}</h2>
-                        <p class="subtitle">${project.subtitle}</p>
-                        <p>${project.abstract}</p>
-                    </div>
-                </div>
-            </a>
-        `;
-
-        document.getElementById("projects").innerHTML += projectHtml;
+                </a>
+            `;
+    
+            document.getElementById("projects").innerHTML += projectHtml;
+        }
     }
-}
+    
 
 for (b of document.querySelectorAll("#buttons button")) {
     b.addEventListener("click", e => {
@@ -86,3 +90,23 @@ function copyEmail() {
             console.error('Could not copy email: ', err);
         });
 }
+
+// Get all the images
+const images = document.querySelectorAll('.graph-grid img');
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("imgModalContent");
+const captionText = document.getElementById("caption");
+const closeModal = document.getElementsByClassName("close")[0];
+
+// When an image is clicked, open the modal
+images.forEach((image) => {
+    image.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    };
+});
+
+// When the user clicks on <span> (x), close the modal
+closeModal.onclick = function () {
+    modal.style.display = "none";
+};

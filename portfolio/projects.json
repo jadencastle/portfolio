@@ -5,12 +5,22 @@
 		"subdomain": "outfitted",
 		"category": ["design", "fashion", "participatory", "mobile", "lead", "methods"],
 		"subtitle": "Empowering Fashion Exploration: A Community-Driven App for Self-Expression and Style Discovery",
-		"collaborators": ["Jad", "Jessica Vo"],
+		"collaborators": ["Jaden Castle"],
 		"abstract": "A fashion app designed for users to showcase their unique styles through outfit photos and tags. By focusing on self-expression and creativity, the app aims to build an engaging community without the pressures of traditional social metrics. The design process involved user research and iterative feedback, resulting in a streamlined interface that encourages discovery and connection among fashion enthusiasts.",
 		"description": ["This project aimed to address the need for a community-focused fashion platform by implementing a blend of discovery and self-expression features. Research methods like surveys, user personas, and competitor analysis guided the design process, ensuring the app met user needs and filled market gaps."],
 		"mainimg": "proj.jpg",
-		"video": ["False"],
-		"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
+		"video": ["False"]
+	  },
+	  {
+		"name": "Hoops & Numbers: Evaluating the Game’s True Stars",
+		"subdomain": "nba",
+		"category": ["data", "analysis", "visualizations", "formula", "lead"],
+		"subtitle": "A Data-Driven Approach to Evaluating NBA Impact",
+		"collaborators": ["Jaden Castle"],
+		"abstract": "Explores the question of what makes an NBA player truly great by developing a comprehensive formula that evaluates performance across key metrics. By combining points, assists, rebounds, shooting percentages, and win contributions, the analysis provides a holistic view of player impact. Drawing from data across four NBA regular seasons (2020–21 to 2023–24), it challenges traditional player evaluations and offers a deeper understanding of what defines success on the court.",
+		"description": ["This analysis takes a data-driven approach to assess NBA player performance, blending key metrics like points, assists, rebounds, and shooting efficiency. By weighing these factors alongside a player’s overall impact on team success, it creates a more complete picture of what makes a player excel in the game. Using data from the 2020–21 to 2023–24 NBA seasons, the project aims to provide a fresh perspective on player evaluation, moving beyond traditional stats to uncover what really sets top performers apart."],
+		"mainimg": "proj(2).jpg",
+		"video": ["False"]
 	  }
 	]
   }

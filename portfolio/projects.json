@@ -14,7 +14,7 @@
 	  {
 		"name": "Hoops & Numbers: Evaluating the Stars",
 		"subdomain": "nba",
-		"category": ["data", "analysis", "visualizations", "formula", "lead"],
+		"category": ["data", "analysis", "visualizations", "formula", "python"],
 		"subtitle": "A Data-Driven Approach to Evaluating NBA Impact",
 		"collaborators": ["Jaden Castle"],
 		"abstract": "Explores the question of what makes an NBA player truly great by developing a comprehensive formula that evaluates performance across key metrics. By combining points, assists, rebounds, shooting percentages, and win contributions, the analysis provides a holistic view of player impact. Drawing from data across four NBA regular seasons (2020–21 to 2023–24), it challenges traditional player evaluations and offers a deeper understanding of what defines success on the court.",
